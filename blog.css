@@ -34,7 +34,7 @@ a {
 h6 {
   margin: 10px 10px;
 }
-h2 a {
+h3 a {
   margin: 10px 10px;
   color: hsl(0, 0%, 0%);
   text-decoration: none;
@@ -61,7 +61,7 @@ a:hover {
 }
 @media screen and (min-width: 840px) {
   .container-fluid {
-    background-color: white
+    background-color: white;
     width: 400px;
     height: 530px;
     box-shadow: 10px 10px 10px black;
