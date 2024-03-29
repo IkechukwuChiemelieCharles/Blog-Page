@@ -61,12 +61,16 @@ a:hover {
 }
 @media screen and (min-width: 840px) {
   .container-fluid {
-    background-color: hsl(0, 0%, 100%);
+    background-color: white
     width: 400px;
-    height: 600px;
+    height: 530px;
     box-shadow: 10px 10px 10px black;
     border: 1px black solid;
     border-radius: 20px;
     margin: 10% auto;
+  }
+  h3 a {
+    text-decoration: none;
+    color: black;
   }
 }
