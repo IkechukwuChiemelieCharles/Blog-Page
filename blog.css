@@ -6,7 +6,7 @@
 body {
   background-color: hsl(47, 88%, 63%);
 }
-.container {
+.container-fluid {
   background-color: hsl(0, 0%, 100%);
   width: 400px;
   height: 500px;
@@ -58,4 +58,15 @@ p {
 }
 a:hover {
   color: hsl(47, 88%, 63%);
+}
+@media screen and (min-width: 840px) {
+  .container-fluid {
+    background-color: hsl(0, 0%, 100%);
+    width: 400px;
+    height: 600px;
+    box-shadow: 10px 10px 10px black;
+    border: 1px black solid;
+    border-radius: 20px;
+    margin: 10% auto;
+  }
 }
