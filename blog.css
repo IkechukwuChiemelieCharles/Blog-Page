@@ -16,32 +16,35 @@ body {
   margin: 10% auto;
 }
 .img {
-  width: 300px;
-  border-radius: 50px;
-  margin: 10px 50px;
+  width: 350px;
+  border-radius: 20px;
+  margin: 10px 10px;
 }
 .button {
   background-color: hsl(47, 88%, 63%);
-  margin: 10px 50px;
-  width: 80px;
+  margin: 5px 10px;
+  width: 100px;
   height: 30px;
   border-radius: 10px;
-  padding: 5px 10px;
+}
+a {
+  margin-left: 5px;
+  margin-top: -5px;
 }
 h6 {
-  margin: 10px 50px;
+  margin: 10px 10px;
 }
 h2 a {
-  margin: 10px 50px;
+  margin: 10px 10px;
   color: hsl(0, 0%, 0%);
   text-decoration: none;
 }
 p {
   color: hsl(0, 0%, 50%);
-  margin: 10px 50px;
+  margin: 10px 10px;
 }
 .profile img {
-  margin-left: 50px;
+  margin-left: 10px;
   margin-top: 10px;
   width: 40px;
 }
@@ -55,54 +58,4 @@ p {
 }
 a:hover {
   color: hsl(47, 88%, 63%);
-}
-@media screen and (max-width: 600px) {
-  .container {
-    background-color: hsl(0, 0%, 100%);
-    width: 350px;
-    height: 500px;
-    box-shadow: 10px 10px 10px black;
-    border: 1px black solid;
-    border-radius: 20px;
-    margin: 10% 100px;
-  }
-  .img {
-    width: 300px;
-    margin: 0 25px;
-    border-radius: 50px;
-  }
-  .button {
-    background-color: hsl(47, 88%, 63%);
-    margin: 3px 25px;
-    width: 80px;
-    height: 30px;
-    border-radius: 10px;
-    padding: 5px 10px;
-  }
-  h6 {
-    margin: 10px 25px;
-  }
-  h2 a {
-    margin: 10px 25px;
-    color: hsl(0, 0%, 0%);
-    text-decoration: none;
-  }
-  p {
-    color: hsl(0, 0%, 50%);
-    margin: 10px 25px;
-  }
-  .profile {
-    display: flex;
-    align-items: center;
-    margin-left: -25px;
-  }
-  .profile img {
-    margin-left: 50px;
-    margin-top: 10px;
-    width: 30px;
-  }
-  .profile > p {
-    margin: 10px 20px;
-    color: black;
-  }
 }
